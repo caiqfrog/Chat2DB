@@ -1,5 +1,5 @@
 # Mirror based on jdk17
-FROM openjdk:17
+FROM eclipse-temurin:17-jdk
 # Define the default location when entering the container and the working location for subsequent operations.
 WORKDIR /app
 # Copy the jar package in the current directory to the /app directory of the docker container
